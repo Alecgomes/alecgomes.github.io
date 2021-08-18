@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: rgb(2,3,11);
+    background: linear-gradient(180deg, rgba(2,3,11,1) 16%, rgba(52,75,204,1) 100%);
+}
+
+.avatar{
+    width: 100px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 150;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links-list{
+    margin-top: 50px;
+    list-style: none;
+    text-align: center;
+}
+
+.links-list li{
+    margin: 10px 20px;
+}
+
+
+.links-list li a{
+    display: block;
+    background:white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(2,3,11);
+}
+
+.links.list li a span{
+    color: white;
+    display: block;
+    margin-top: 10px;
+}
